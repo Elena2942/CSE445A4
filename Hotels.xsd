@@ -1,1 +1,17 @@
-<h1>HI</h1>
+<?xml version="1.0" encoding="utf-8"?>
+<cse:Hotels
+	xmlns:cse="https://elena2942.github.io/CSE445A4/Hotels.xsd">
+	<cse:Hotel>
+		<cse:Name>Westin</cse:Name>
+		<cse:Phone>4209688885</cse:Phone>
+		<cse:Address>
+			<cse:Number>11</cse:Number>
+			<cse:Street>E.7th St</cse:Street>
+			<cse:City>Tempe</cse:City>
+			<cse:State>AZZ</cse:State>
+			<cse:Zip>85281</cse:Zip>
+			<cse:attribute NearstAirport="lang" type="xs:string" use="required"/>
+		</cse:Address>
+		<cse:attribute Rating="lang" type="xs:string"/>
+	</cse:Hotel>
+</cse:Hotels>
