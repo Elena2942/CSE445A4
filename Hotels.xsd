@@ -3,7 +3,7 @@
 	xmlns:xsd="https://elena2942.github.io/CSE445A4/Hotels.xsd">
 	<xsd:element name="Hotel">
 		<xsd:element name="Name" type="string"/>
-		<xsd:element name="Phone" type="integer"/>//note, can have multiple phone numbers
+		<xsd:element name="Phone" type="integer" maxOccurs="unbounded"/>//note, can have multiple phone numbers
 		<xsd:element name="Address">
 			<xsd:complexType>
 				<xsd:sequence>
