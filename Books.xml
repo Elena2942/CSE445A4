@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Bookstore xmlns ="http://venus.sod.asu.edu/WSRepository/xml" 
+  xmlns bs = "http://venus.sod.asu.edu/WSRepository/xml/bookstore.xsd" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml/bookstore.xsd"> 
+  <Book> 
+    <Title bs: cover = paperback > Introduction to Programming Languages </Title> 
+    <Author>Yinong Chen</Author>
+    <Author>W.T. Tsai</Author>
+    <Year edition = "2" > 2006</Year>
+    <ISBN>0-7575-2974-7</ISBN> 
+    <Size>A4</Size> </Book> 
+  <Book> <Title>Distributed Service-Oriented Software Development</Title>
+    <Author>Yinong Chen</Author> 
+    <Author>W.T. Tsai</Author> 
+    <Year>2008</Year>
+    <ISBN>978-0-7575-5273-1</ISBN> 
+    <Size>A4</Size> 
+  </Book> 
+</Bookstore>
