@@ -1,19 +1,21 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <xsd:schema
 	xmlns:xsd="https://elena2942.github.io/CSE445A4/Hotels.xsd">
 	<xsd:element name="Hotel">
 		<xsd:element name="Name" type="string"/>
 		<xsd:element name="Phone" type="integer"/>//note, can have multiple phone numbers
-		<xsd:complexType name="Address" type="string">
-			<xsd:sequence>
-				<xsd:element name="Number"/>
-				<xsd:element name="Street" type="string"/>
-				<xsd:element name="City" type="string"/>
-				<xsd:element name="State" type="string"/>
-				<xsd:element name="Zip" type="integer"/>
-				<xsd:attribute NearstAirport="lang" type="xs:string" use="required"/>
-			</xsd:sequence>
-		</xsd:complexType>
+		<xsd:element name="Address">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="Number" type="xsd:integer"/>
+					<xsd:element name="Street" type="xsd:string"/>
+					<xsd:element name="City" type="xsd:string"/>
+					<xsd:element name="State" type="xsd:string"/>
+					<xsd:element name="Zip" type="xsd:integer"/>
+					<xsd:attribute NearstAirport="lang" type="xs:string" use="required"/>
+				</xsd:sequence>
+			</xsd:complexType>	
+		</xsd:element>
 		<xsd:attribute Rating="lang" type="xs:string"/>
 	</xsd:element>
 </xsd:schema>
