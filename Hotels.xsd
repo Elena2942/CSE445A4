@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsd:schema
-	xmlns:xsd="https://elena2942.github.io/CSE445A4">
+	xmlns:xsd="https://elena2942.github.io/CSE445A4/">
 	<xsd:element name="Hotel">
 		<xsd:element name="Name" type="string"/>
 		<xsd:element name="Phone" type="integer" maxOccurs="unbounded"/>//note, can have multiple phone numbers
