@@ -21,8 +21,8 @@
 									</xsd:sequence>
 								</xsd:complexType>	
 							</xsd:element>
-							<xsd:attribute Rating="lang" type="xs:string" use="optional"/>
 						</xsd:sequence>
+						<xsd:attribute Rating="lang" type="xs:string" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
