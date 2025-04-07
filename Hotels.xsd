@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="https://elena2942.github.io/CSE445A4" 
+	targetNamespace="https://elena2942.github.io/CSE445A4" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:element name="Hotels">
 		<xsd:complexType>
 			<xsd:sequence maxOccurs="unbounded">
@@ -16,8 +18,8 @@
 										<xsd:element name="City" type="xsd:string"/>
 										<xsd:element name="State" type="xsd:string"/>
 										<xsd:element name="Zip" type="xsd:integer"/>
-										<xsd:attribute NearstAirport="lang" type="xs:string" use="required"/>
 									</xsd:sequence>
+									<xsd:attribute NearstAirport="lang" type="xs:string" use="required"/>
 								</xsd:complexType>	
 							</xsd:element>
 						</xsd:sequence>
