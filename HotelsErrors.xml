@@ -5,7 +5,7 @@
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
-        <Address NearstAirport="Sky Harbor">
+        <Address>
             <Number>11</Number>
             <Street>E. 7th Street</Street>
             <City>Tempe</City>
@@ -16,7 +16,6 @@
 
     <Hotel Rating="4.0">
         <Name>MOXY</Name>
-        <Phone>480-968-3451</Phone>
         <Address NearstAirport="Phoenix Sky Harbor">
             <Number>1333</Number>
             <Street>South Rural Road</Street>
@@ -34,11 +33,12 @@
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-        </Address>
+          
     </Hotel>
 
       <Hotel>
         <Name>Fairfield Inn</Name>
+        <Name>FairFIeld</Name>
         <Phone>520-536-8100</Phone>
         <Address NearstAirport="Phoenix Sky Harbor">
             <Number>1929</Number>
