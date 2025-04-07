@@ -28,6 +28,7 @@
 
     <Hotel Rating="4.5">
         <Name>Hyatt Place</Name>
+        <Phone>(602) 388-4888</Phone>
         <Address NearstAirport="Phoenix Sky Harbor">
             <Number>601</Number>
             <Street>6th St.</Street>
