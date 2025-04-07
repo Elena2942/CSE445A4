@@ -37,7 +37,7 @@
         </Address>
     </Hotel>
 
-      <Hotel Rating="4.0">
+      <Hotel>
         <Name>Fairfield Inn</Name>
         <Phone>520-536-8100</Phone>
         <Address NearstAirport="Phoenix Sky Harbor">
@@ -75,6 +75,8 @@
 
     <Hotel Rating="4.5">
         <Name>The Hotel Captain Cook</Name>
+        <Phone>907-276-6000</Phone>
+        <Phone>800-843-1950</Phone>
         <Address NearstAirport="Ted Stevens Anchorage">
             <Number>939</Number>
             <Street>W. 5th Ave.</Street>
@@ -98,6 +100,8 @@
 
      <Hotel Rating="4.6">
         <Name>Silver Cloud Hotel</Name>
+        <Phone>206.204.9800</Phone>
+        <Phone>800.497.1261</Phone>
         <Address NearstAirport="SEA">
             <Number>1046</Number>
             <Street>1st Avenue South</Street>
@@ -109,6 +113,7 @@
 
       <Hotel Rating="5.0">
         <Name>Four Seasons Hotel</Name>
+        <Phone>(206) 749-7000</Phone>
         <Address NearstAirport="SEA">
             <Number>99</Number>
             <Street>Union Street</Street>
