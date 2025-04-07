@@ -1,15 +1,122 @@
 <?xml version="1.0" encoding = "utf-8"?>
-<?xml-stylesheet type = "text/xsl" href="Hotel.xsl"?>
-<Hotels>
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E. 7th Street</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
+  <Hotels>
+    
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearstAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th Street</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.0">
+        <Name>MOXY</Name>
+        <Phone>480-968-3451</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor">
+            <Number>1333</Number>
+            <Street>South Rural Road</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>Hyatt Place</Name>
+        <Address NearstAirport="Phoenix Sky Harbor">
+            <Number>601</Number>
+            <Street>6th St.</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+      <Hotel Rating="4.0">
+        <Name>Fairfield Inn</Name>
+        <Phone>520-536-8100</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor">
+            <Number>1929</Number>
+            <Street>East Rio Salado Parkway</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85288</Zip>
+        </Address>
+    </Hotel>
+   
+    <Hotel Rating="4.0">
+        <Name>Embassy Suites</Name>
+        <Phone>855-605-0319</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor">
+            <Number>4400</Number>
+            <Street>South Rural Road</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.0">
+        <Name>The Lakefront Anchorage</Name>
+        <Phone>907-243-2300</Phone>
+        <Address NearstAirport="Ted Stevens Anchorage">
+            <Number>4800</Number>
+            <Street>Spenard Road</Street>
+            <City>Anchorage</City>
+            <State>AK</State>
+            <Zip>99517</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>The Hotel Captain Cook</Name>
+        <Address NearstAirport="Ted Stevens Anchorage">
+            <Number>939</Number>
+            <Street>W. 5th Ave.</Street>
+            <City>Anchorage</City>
+            <State>AK</State>
+            <Zip>99501</Zip>
+        </Address>
+    </Hotel>
+        
+    <Hotel Rating="4.0">
+        <Name>Hilton Seattle</Name>
+        <Phone>855-605-0316</Phone>
+        <Address NearstAirport="Seattle-Tacoma International Airport">
+            <Number>17620</Number>
+            <Street>International Blvd.</Street>
+            <City>Seattle-Tacoma</City>
+            <State>WA</State>
+            <Zip>98188</Zip>
+        </Address>
+    </Hotel>
+
+     <Hotel Rating="4.6">
+        <Name>Silver Cloud Hotel</Name>
+        <Address NearstAirport="SEA">
+            <Number>1046</Number>
+            <Street>1st Avenue South</Street>
+            <City>Seattle</City>
+            <State>WA</State>
+            <Zip>98134</Zip>
+        </Address>
+    </Hotel>
+
+      <Hotel Rating="5.0">
+        <Name>Four Seasons Hotel</Name>
+        <Address NearstAirport="SEA">
+            <Number>99</Number>
+            <Street>Union Street</Street>
+            <City>Seattle</City>
+            <State>WA</State>
+            <Zip>98101</Zip>
+        </Address>
+    </Hotel>
+    
+
+    
