@@ -21,12 +21,12 @@
 										<xsd:element name="Zip" type="xsd:integer" minOccurs = "1" maxOccurs = "1"/>
 									</xsd:sequence>
 									
-									<xsd:attribute name="NearstAirport" type="xs:string" use="required"/>
+									<xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
 								</xsd:complexType>	
 							</xsd:element>
 						</xsd:sequence>
 						
-						<xsd:attribute Rating="lang" type="xs:string" use="optional"/>
+						<xsd:attribute name="Rating" type="xsd:string" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
