@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns="https://elena2942.github.io/CSE445A4" 
-	targetNamespace="https://elena2942.github.io/CSE445A4" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:element name="Hotels">
 		<xsd:complexType>
-			<xsd:sequence maxOccurs="unbounded">
+			
+			<xsd:sequence>
 				<xsd:element name="Hotel" minOccurs = "1" maxOccurs = "unbounded">
 					<xsd:complexType>
+						
 						<xsd:sequence>
-							<xsd:element name="Name" type="string"/>
+							<xsd:element name="Name" type="string" minOccurs = "1" maxOccurs = "1"/>
 							<xsd:element name="Phone" type="integer" maxOccurs="unbounded"/>
 							<xsd:element name="Address">
 								<xsd:complexType>
+									
 									<xsd:sequence>
-										<xsd:element name="Number" type="xsd:integer"/>
-										<xsd:element name="Street" type="xsd:string"/>
-										<xsd:element name="City" type="xsd:string"/>
-										<xsd:element name="State" type="xsd:string"/>
-										<xsd:element name="Zip" type="xsd:integer"/>
+										<xsd:element name="Number" type="xsd:integer" minOccurs = "1" maxOccurs = "1"/>
+										<xsd:element name="Street" type="xsd:string" minOccurs = "1" maxOccurs = "1"/>
+										<xsd:element name="City" type="xsd:string" minOccurs = "1" maxOccurs = "1"/>
+										<xsd:element name="State" type="xsd:string" minOccurs = "1" maxOccurs = "1"/>
+										<xsd:element name="Zip" type="xsd:integer" minOccurs = "1" maxOccurs = "1"/>
 									</xsd:sequence>
+									
 									<xsd:attribute NearstAirport="lang" type="xs:string" use="required"/>
 								</xsd:complexType>	
 							</xsd:element>
 						</xsd:sequence>
+						
 						<xsd:attribute Rating="lang" type="xs:string" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
+			
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
